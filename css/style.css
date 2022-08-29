@@ -24,6 +24,7 @@ body {
 .item1{
     text-align: left;
     grid-area: item1;
+    /* left: 280px; */
     padding: 240px 120px 240px 240px;
     /* padding-top: 240px;
     padding-left: 280px;
@@ -57,17 +58,27 @@ body {
 .footer{
     grid-area: footer;
     text-align: left;
+    padding: 108px 120px 93px 280px;
+    /* padding-top: 108px;
     padding-left: 280px;
     padding-right: 120px;
+    bot: 93 */
     background-color: #ffdd00;
 }
 
 .right-img{
     grid-area: right;
-    width: 33.3vw;
+    width: 35vw;
+    position: fixed;
+    right: 0px;
     /* margin: 0 0; */
     /* padding: 100%; */
 }
+
+/* body > img{
+    position: -webkit-sticky;
+    position: sticky;
+} */
 
 h1{
     font-size: 44px;
@@ -106,6 +117,10 @@ p{
     color: #004069;
 }
 
+.item1 > p{
+    width: 45vw;
+}
+
 .item3 > h5{
     margin-top: 118px;
 }
@@ -116,12 +131,15 @@ p{
 
 .item4 > h1{
     font-size: 53px;
+    margin-top: 151px;
+    margin-bottom: 36px;
     color: #E8348B;
 }
 
 .item4 > p{
     color: #fffdef;
     font-size: 20px;
+    margin-bottom: 290px;
 }
 
 .intro{
