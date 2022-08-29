@@ -1,0 +1,92 @@
+.container{
+    display: grid;
+    grid-template-areas: 
+        "item1 item1 right"
+        "item2 item2 right"
+        "item3 item3 right"
+        "item4 item4 right";
+    background-color: #FFFDEF;
+    width: 100vw;
+}
+
+.item1{
+    text-align: left;
+    grid-area: item1;
+    /* width: 66vw; */
+    padding-left: 280px;
+    padding-right: 120px;
+    /* padding: 100%; */
+}
+
+.item2{
+    grid-area: item2;
+    text-align: left;
+    padding-left: 280px;
+    padding-right: 120px;
+    background-color: #004069;
+}
+
+.item3{
+    grid-area: item3;
+    text-align: left;
+    padding-left: 280px;
+    padding-right: 120px;
+}
+
+.item4{
+    grid-area: item4;
+    text-align: left;
+    padding-left: 280px;
+    padding-right: 120px;
+}
+
+/* .item5{
+    grid-area: main;
+} */
+
+.right-img{
+    grid-area: right;
+    width: 33.3vw;
+    /* margin: 0 0; */
+    /* padding: 100%; */
+}
+
+h1{
+    font-size: 44px;
+    color: #004069;
+}
+
+h2{ 
+    font-size: 76px;
+    color: #E8348B;
+}
+
+h3{
+    font-size: 36px;
+    color: #fffdef;
+}
+
+h4{
+    font-size: 30px;
+    color: #fffdef;
+}
+
+h5{
+    font-size: 30px;
+    color: #e8348b;
+}
+
+h6{
+    font-size: 44px;
+    color: #004069;
+}
+
+p{
+    font-size: 20px;
+    color: #004069;
+}
+
+.intro{
+    font-size: 24px;
+    color: #004069;
+}
