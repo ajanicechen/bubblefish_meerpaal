@@ -8,18 +8,37 @@
     <head>
         <meta charset="UTF-8">
         <title>meerpaal</title>
+
+        <!-- Stylesheet Iskra Font -->
+        <!-- <link href="//db.onlinewebfonts.com/c/2111f7d4b53c115e872c6151b09af646?family=Iskra" rel="stylesheet" type="text/css"/> -->
+
+        <!-- Bootstrap and own stylesheet -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
 
     <body>
+        <!-- Container -->
         <div class="content-container">
-            <div class="header">
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Waar ben je naar opzoek?" aria-label="Search">
-                    <button class="btn" type="submit">Zoeken</button>
-                </form>
+            <!-- Burger Menu -->
+            <div class="menu sticky-top overflow-hidden">
+                <div>
+                    <iframe class="iframe-svg" src="resources/Group_715.svg"></iframe>
+                    <iframe class="iframe-svg" src="resources/Group_716.svg"></iframe>
+                    <iframe class="iframe-svg" src="resources/Group_717.svg"></iframe>
+                </div>    
             </div>
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid align-middle header top-0">
+                    <p class="menu-tag">Menu</p>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Waar ben je naar opzoek?" aria-label="Search">
+                        <button class="btn" type="submit">Zoeken</button>
+                    </form>
+                </div>
+            </nav>
+            <!-- section content 1 -->
             <div class="item1">
                 <h1>Welkom!</h1>
                 <h2>Leg aan in onze haven</h2>
@@ -30,6 +49,7 @@
                     van leerling tot leerkracht en van conciërge tot ouder creëren wij een 
                     veilige omgeving waarin iedereen kan opbloeien. Leg aan in onze haven!
                 </p>
+                <a href="#">Ik ben nieuw →</a>
             </div>
             <div class="item2">
                 <h3>Actueel</h3>
@@ -102,7 +122,7 @@
                     </div>
                 </div>
             </div>
-            <img class="right-img" src="resources/Rectangle_177.png">
+            <img class="right-img sticky-top" src="resources/Rectangle_177.png">
         </div>
     </body>
    
