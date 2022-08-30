@@ -26,7 +26,6 @@
     weer onderdeel van CVO Rotterdam, de vereniging voor Christelijk Voortgezet Onderwijs. 
     Onderdeel van het CVO is ook een shared-service-organisatie die veel van de 
     administratieve taken van De Meerpaal op zich neemt.";
-
 ?>
 
 <html>
@@ -50,9 +49,9 @@
             <!-- Burger Menu -->
             <div class="menu sticky-top overflow-hidden">
                 <div>
-                    <iframe class="iframe-svg" src="resources/Group_715.svg"></iframe>
-                    <iframe class="iframe-svg" src="resources/Group_716.svg"></iframe>
-                    <iframe class="iframe-svg" src="resources/Group_717.svg"></iframe>
+                    <img class="svg-img" src="resources/Group_715.svg"></img>
+                    <img class="svg-img" src="resources/Group_716.svg"></img>
+                    <img class="svg-img" src="resources/Group_717.svg"></img>
                 </div>    
             </div>
 
