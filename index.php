@@ -1,5 +1,5 @@
 <?php 
-    // Section 1
+    // Section 1/ item1
     $welcome = "Welcome!";
     $greet = "Leg aan in onze haven";
     $intro = "Op VMBO De Meerpaal valt niemand buiten de boot, wat je verhaal ook is. 
@@ -7,6 +7,26 @@
             bij ons is het normaal dat iedereen bijzonder is. Door de vertrouwensband 
             van leerling tot leerkracht en van conciërge tot ouder creëren wij een 
             veilige omgeving waarin iedereen kan opbloeien. Leg aan in onze haven!";
+
+    //section 2 / item2
+
+    
+    //section 3 / item3
+    $vision = "Onderwijsvisie";
+    $safety = "Veilige leeromgeving";
+    $safetyDescription = "De Meerpaal biedt kinderen die in cognitief of sociaal-emotioneel 
+        opzicht ‘anders’ zijn, een veilige en uitdagende leeromgeving. Daarom gaat ons onderwijs 
+        net een stapje verder dan op andere scholen. Zo hechten wij aan overzichtelijkheid en 
+        aandacht voor persoonlijke ontwikkeling. Bovendien heeft iedere leerling eigen leerdoelen, 
+        om onderwijs op maat te creëren.";
+
+    $comenius = "Onderdeel van Comenius";
+    $comeniusDescription = "De Meerpaal is onderdeel van scholengroep Comenius College. Onder Comenius College 
+    vallen een aantal middelbare scholen in Rotterdam-Oost. Op haar beurt is Comenius 
+    weer onderdeel van CVO Rotterdam, de vereniging voor Christelijk Voortgezet Onderwijs. 
+    Onderdeel van het CVO is ook een shared-service-organisatie die veel van de 
+    administratieve taken van De Meerpaal op zich neemt.";
+
 ?>
 
 <html>
@@ -91,29 +111,17 @@
             <!-- section content 3 -->
             <div class="item3">
                 <div>
-                    <h5>Onderwijsvisie</h5>
-                    <h6>Veilige leeromgeving</h6>
-                    <p class="p-blue">
-                        De Meerpaal biedt kinderen die in cognitief of sociaal-emotioneel opzicht 
-                        ‘anders’ zijn, een veilige en uitdagende leeromgeving. Daarom gaat ons 
-                        onderwijs net een stapje verder dan op andere scholen. Zo hechten wij aan 
-                        overzichtelijkheid en aandacht voor persoonlijke ontwikkeling. Bovendien heeft 
-                        iedere leerling eigen leerdoelen, om onderwijs op maat te creëren.
-                    </p>
+                    <h5><?php echo $vision;?></h5>
+                    <h6><?php echo $safety;?></h6>
+                    <p class="p-blue"><?php echo $safetyDescription; ?></p>
                     <a class="white-btn" href="#">Voor ouders →</a>
                 </div>
 
                 <!-- line goes through here??? -->
 
                 <div>
-                    <h6>Onderdeel van Comenius</h6>
-                    <p class="p-blue">
-                        De Meerpaal is onderdeel van scholengroep Comenius College. Onder Comenius College 
-                        vallen een aantal middelbare scholen in Rotterdam-Oost. Op haar beurt is Comenius 
-                        weer onderdeel van CVO Rotterdam, de vereniging voor Christelijk Voortgezet Onderwijs. 
-                        Onderdeel van het CVO is ook een shared-service-organisatie die veel van de 
-                        administratieve taken van De Meerpaal op zich neemt.
-                    </p>
+                    <h6><?php echo $comenius;?></h6>
+                    <p class="p-blue"><?php echo $comeniusDescription;?></p>
                     <div class="pink-btn d-flex">
                         <a class="" href="#">Download de schoolgids</a>
                         <iframe class="iframe-svg justify-content-end" src="resources/Icon_feather-external-link.svg"></iframe>
