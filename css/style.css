@@ -42,10 +42,9 @@ body {
 }
 
 .header{
-    align-items: right;
+    /* align-items: left; */
     grid-area: header;
-    right: 39.5 vw;
-    /* margin-top: 53px; */
+    /* right: 39.5 vw; */
     padding: 0 0;
     margin: 0 0;
     /* margin-left: 35.7vw; */
@@ -63,7 +62,7 @@ body {
     /* padding-right: 120px; */
     /* left: 280px; */
     /* padding: 75px 75px 75px 75px; */
-    /* padding: 75px 50px 75px 0; */
+    padding: 75px 50px 75px 0;
 }
 
 .item2{
@@ -71,7 +70,7 @@ body {
     text-align: left;
     /* padding-left: 280px;
     padding-right: 120px; */
-    /* padding: 75px 50px 75px 160px; */
+    padding: 75px 50px 75px 160px;
     background-color: #004069;
 }
 
@@ -79,7 +78,7 @@ body {
     grid-area: item3;
     text-align: left;
     /* padding-left: 280px;
-    padding-right: 120px; */
+    /* padding-right: 120px; */
     padding: 75px 50px 75px 160px;
 }
 
@@ -88,14 +87,14 @@ body {
     text-align: left;
     /* padding-left: 280px;
     padding-right: 120px; */
-    /* padding: 75px 50px 75px 160px; */
+    padding: 75px 50px 75px 160px;
     background-color: #004069;
 }
 
 .footer{
     grid-area: footer;
     text-align: left;
-    /* padding: 75px 50px 75px 160px;     */
+    padding: 75px 50px 75px 160px;    
     background-color: #ffdd00;
 }
 

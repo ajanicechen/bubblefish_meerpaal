@@ -2,11 +2,7 @@
     // Section 1/ item1
     $welcome = "Welcome!";
     $greet = "Leg aan in onze haven";
-    $intro = "Op VMBO De Meerpaal valt niemand buiten de boot, wat je verhaal ook is. 
-            Of je nou moeite hebt met stilzitten of je last hebt van dyslexie, 
-            bij ons is het normaal dat iedereen bijzonder is. Door de vertrouwensband 
-            van leerling tot leerkracht en van conciërge tot ouder creëren wij een 
-            veilige omgeving waarin iedereen kan opbloeien. Leg aan in onze haven!";
+    $intro = "Op VMBO De Meerpaal valt niemand buiten de boot, wat je verhaal ook is. Of je nou moeite hebt met stilzitten of je last hebt van dyslexie, bij ons is het normaal dat iedereen bijzonder is. Door de vertrouwensband van leerling tot leerkracht en van conciërge tot ouder creëren wij een veilige omgeving waarin iedereen kan opbloeien. Leg aan in onze haven!";
 
     //section 2 / item2
 
