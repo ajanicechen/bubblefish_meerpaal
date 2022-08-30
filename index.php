@@ -1,7 +1,12 @@
 <?php 
-
-
-
+    // Section 1
+    $welcome = "Welcome!";
+    $greet = "Leg aan in onze haven";
+    $intro = "Op VMBO De Meerpaal valt niemand buiten de boot, wat je verhaal ook is. 
+            Of je nou moeite hebt met stilzitten of je last hebt van dyslexie, 
+            bij ons is het normaal dat iedereen bijzonder is. Door de vertrouwensband 
+            van leerling tot leerkracht en van conciërge tot ouder creëren wij een 
+            veilige omgeving waarin iedereen kan opbloeien. Leg aan in onze haven!";
 ?>
 
 <html>
@@ -44,15 +49,9 @@
 
             <!-- section content 1 -->
             <div class="item1">
-                <h1>Welkom!</h1>
-                <h2>Leg aan in onze haven</h2>
-                <p class="intro">
-                    Op VMBO De Meerpaal valt niemand buiten de boot, wat je verhaal ook is. 
-                    Of je nou moeite hebt met stilzitten of je last hebt van dyslexie, 
-                    bij ons is het normaal dat iedereen bijzonder is. Door de vertrouwensband 
-                    van leerling tot leerkracht en van conciërge tot ouder creëren wij een 
-                    veilige omgeving waarin iedereen kan opbloeien. Leg aan in onze haven!
-                </p>
+                <h1><?php echo $welcome; ?></h1>
+                <h2><?php echo $greet; ?></h2>
+                <p class="intro"><?php echo $intro; ?></p>
                 <a class="white-btn" href="#">Ik ben nieuw →</a>
             </div>
 
