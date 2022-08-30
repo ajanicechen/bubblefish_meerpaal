@@ -44,11 +44,9 @@
         <div class="content-container">
             <!-- Burger Menu -->
             <div class="menu sticky-top overflow-hidden">
-                <div>
-                    <img class="svg-img" src="resources/Group_715.svg"></img>
-                    <img class="svg-img" src="resources/Group_716.svg"></img>
-                    <img class="svg-img" src="resources/Group_717.svg"></img>
-                </div>    
+                <img class="svg-img" src="resources/Group_715.svg"></img>
+                <img class="svg-img" src="resources/Group_716.svg"></img>
+                <img class="svg-img" src="resources/Group_717.svg"></img>  
             </div>
 
             <!-- Navbar -->
