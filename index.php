@@ -70,19 +70,19 @@
 
             <!-- section content 2 -->
             <div class="item2">
-                <div class="container text-left">
+                <div class="container">
                     <h3>Actueel</h3>
 
                     <div class="row justify-content-start">
-                        <div class="col">
+                        <div class="col-5">
                             <h4>Om te noteren</h4>
                         </div>
-                        <div class="col">
+                        <div class="col-5">
                             <h4>Nieuws</h4>
                         </div>
                     </div>
 
-                    <div>
+                    <div class="justify-content-start">
                         <h3>Ahoy Meerpaler!</h3>
                         <p class="p-white">
                             Op zoek naar informatie over vakanties, verlof of de leerlingenraad? 
@@ -95,20 +95,16 @@
                         </div>
                         
                         <a class="blue-btn" href="#">Mijn school →</a>
-
-                        
                     </div>
                 </div>
             </div>
 
             <!-- section content 3 -->
             <div class="item3">
-                <div>
-                    <h5><?php echo $vision;?></h5>
-                    <h6><?php echo $safety;?></h6>
-                    <p class="p-blue"><?php echo $safetyDescription; ?></p>
-                    <a class="white-btn" href="#">Voor ouders →</a>
-                </div>
+                <h5><?php echo $vision;?></h5>
+                <h6><?php echo $safety;?></h6>
+                <p class="p-blue"><?php echo $safetyDescription; ?></p>
+                <a class="white-btn" href="#">Voor ouders →</a>
 
                 <!-- line goes through here??? -->
 

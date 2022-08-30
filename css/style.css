@@ -69,7 +69,7 @@ body {
     /* padding-right: 120px; */
     /* left: 280px; */
     /* padding: 75px 75px 75px 75px; */
-    padding: 75px 50px 75px 0;
+    padding: 75px 0 75px 75px;
 }
 
 .item2{
@@ -77,7 +77,7 @@ body {
     text-align: left;
     /* padding-left: 280px;
     padding-right: 120px; */
-    padding: 75px 50px 75px 160px;
+    padding: 75px 0 75px 220;
     background-color: #004069;
 }
 
@@ -86,7 +86,7 @@ body {
     text-align: left;
     /* padding-left: 280px;
     /* padding-right: 120px; */
-    padding: 75px 50px 75px 160px;
+    padding: 75px 0 75px 220;
 }
 
 .item4{
@@ -94,14 +94,14 @@ body {
     text-align: left;
     /* padding-left: 280px;
     padding-right: 120px; */
-    padding: 75px 50px 75px 160px;
+    padding: 75px 0 75px 220;
     background-color: #004069;
 }
 
 .footer{
     grid-area: footer;
     text-align: left;
-    padding: 75px 50px 75px 160px;    
+    padding: 75px 0 75px 220;
     background-color: #ffdd00;
 }
 
@@ -167,11 +167,13 @@ p{
     color: #fffdef;
     font-size: 18px;
     margin-bottom: 75px;
+    width: 45vw;
 }
 
 .p-blue{
     color: #004069;
     font-size: 18px;
+    width: 45vw;
     /* margin-bottom: 75px; */
 }
 
@@ -180,7 +182,6 @@ p{
     color: #004069;
     margin-top: 52px;
     margin-bottom: 52px;
-
 }
 
 li{
@@ -258,7 +259,7 @@ li{
     border-radius: 50px;
 }
 
-.white-btn{
+/* .white-btn{
     text-align: center;
     font-size: 20px;
     color: #004069;
@@ -267,4 +268,4 @@ li{
     width: 130px;
     border: 3px solid #004069;
     border-radius: 50px;
-}
+} */
