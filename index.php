@@ -42,17 +42,43 @@
     <body>
         <!-- Container -->
         <div class="content-container">
-            <!-- Burger Menu -->
+            <!-- Logo's -->
             <div class="menu sticky-top overflow-hidden">
-                <img class="svg-img" src="resources/Group_715.svg"></img>
-                <img class="svg-img" src="resources/Group_716.svg"></img>
-                <img class="svg-img" src="resources/Group_717.svg"></img>  
+                <!-- <div class=""> -->
+                    <img class="svg-img" id="menuBtn" src="resources/Group_715.svg"></img>
+                    <img class="svg-img" src="resources/Group_716.svg"></img>
+                    <img class="svg-img" src="resources/Group_717.svg"></img>  
+
+                    <!-- Menu -->
+                    <ul class="menuItems" id="menuItems">
+                        <li>
+                            <a href="">Welkom!</a>
+                        </li>
+                        <li>
+                            <a href="">Ik ben nieuw</a>
+                            <p>Hoe gaat het er aan toe op De Meerpaal?</p>
+                        </li>
+                        <li>
+                            <a href="">Mijn school</a>
+                            <p>Informatie over ziekte en verlof en de leerlingenraad</p>
+                        </li>
+                        <li>
+                            <a href="">Voor ouders</a>
+                            <p>Informatie over protocollen, ouderbijdrage en verzekeringen.</p>
+                        </li>
+                        <li>
+                            <a href="">Aanmelden</a>
+                            <p>Alles over kennismaken, de toelatingseisen en de aanmeldprocedure</p>
+                        </li>
+                    </ul>
+                <!-- </div> -->
+
             </div>
 
             <!-- Navbar -->
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid align-middle header top-0">
-                    <p class="menu-tag">Menu</p>
+                    <p class="menuTag">Menu</p>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Waar ben je naar opzoek?" aria-label="Search">
                         <button class="btn" type="submit">Zoeken</button>
@@ -169,7 +195,9 @@
             </div>
             <img class="right-img sticky-top" src="resources/Rectangle_177.png">
         </div>
+
+        <!-- load js -->
+        <script src="js/menuToggle.js"></script>
     </body>
    
-
 </html>

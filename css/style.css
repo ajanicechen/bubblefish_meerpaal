@@ -41,7 +41,32 @@ body {
     width: 8.3 vw;
 }
 
-.menu-tag{
+.menuItems{
+    background-color: #FE308D;
+    width: 66%;
+    /* left: -100%; */
+    transform: translateX(-100%);
+    transition: 0.5s;
+}
+
+.showMenu{
+    /* left: 0px; */
+    transform: translateX(0);
+}
+
+.menuItems > li > a{
+    font-size: 36px;
+    text-decoration: none;
+    color: #FFFDEF
+}
+
+.menuItems > li > p{
+    font-size: 17px;
+    font-style: italic;
+    color: #FFFDEF
+}
+
+.menuTag{
     font-size: 30px;
     color: #E8348B;
     padding: 40px 40px 40px 5px;
