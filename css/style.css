@@ -59,6 +59,8 @@ body {
 
 .right-img{
     grid-area: right;
+    /* position: absolute; */
+    /* right: 0px; */
     height: 100vh;
 }
 
@@ -112,7 +114,7 @@ h1{
 }
 
 h2{ 
-    font-size: 56px;
+    font-size: 76px;
     font-weight: bold;
     color: #E8348B;
 }
@@ -178,7 +180,7 @@ p{
 }
 
 .intro{
-    font-size: 20px;
+    font-size: 24px;
     color: #004069;
     margin-top: 52px;
     margin-bottom: 52px;
