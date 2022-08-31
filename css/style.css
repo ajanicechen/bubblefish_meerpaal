@@ -1,10 +1,6 @@
-@import url(//db.onlinewebfonts.com/c/4866e277bf7a961362f10bc13925cbbf?family=Iskra);
-
 body {
     /* font-family: 'Acme', sans-serif; */
-    /* font-family: 'Cabin', sans-serif; */
-    font-family: "Iskra"; 
-    /* src: url("//db.onlinewebfonts.com/t/2111f7d4b53c115e872c6151b09af646.eot"); */
+    font-family: 'Cabin', sans-serif;
 }
 
 .content-container{
@@ -50,8 +46,6 @@ body {
     transition: 0.5s ease;
     z-index: 2;
     display: block;
-    justify-content: space-between;
-    gap: 50px;
 }
 
 .showMenu{
@@ -60,20 +54,25 @@ body {
     transform: translateX(0);
 }
 
-.menuItems > li > a{
+.menuItems > div > div > li{
+    max-width: 354px;
+    margin-bottom: 50px;
+}
+
+.menuItems > div > div > li > a{
     font-size: 36px;
     text-decoration: none;
     color: #FFFDEF
 }
 
-.menuItems > li > p{
+.menuItems > div > div > li > p{
     font-size: 17px;
     font-style: italic;
     color: #FFFDEF
 }
 
-.menuItems > li:hover > a,
-.menuItems > li:hover > p{
+.menuItems > div > div > li:hover > a,
+.menuItems > div > div > li:hover > p{
     color: #004069;
 }
 

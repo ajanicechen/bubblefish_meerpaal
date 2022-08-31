@@ -35,10 +35,10 @@
         <meta charset="UTF-8">
         <title>meerpaal</title>
 
-        <!-- Stylesheet Iskra Font -->
-        <link href="//db.onlinewebfonts.com/c/2111f7d4b53c115e872c6151b09af646?family=Iskra" rel="stylesheet" type="text/css"/>
-
-        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+        <!-- Google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
         
         <!-- Bootstrap and own stylesheet -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
@@ -71,38 +71,44 @@
 
             <!-- Menu -->
             <ul class="menuItems" id="menuItems">
-                    <li>
-                        <a href="">Welkom!</a>
-                    </li>
-                    <li>
-                        <a href="">Ik ben nieuw</a>
-                        <p>Hoe gaat het er aan toe op De Meerpaal?</p>
-                    </li>
-                    <li>
-                        <a href="">Mijn school</a>
-                        <p>Informatie over ziekte en verlof en de leerlingenraad</p>
-                    </li>
-                    <li>                            
-                        <a href="">Voor ouders</a>
-                        <p>Informatie over protocollen, ouderbijdrage en verzekeringen.</p>
-                    </li>
-                    <li>
-                        <a href="">Aanmelden</a>
-                        <p>Alles over kennismaken, de toelatingseisen en de aanmeldprocedure</p>
-                    </li>   
-                    <li>
-                        <a href="">Agenda</a>
-                    </li>
-                    <li>
-                        <a href="">Nieuws</a>
-                    </li>
-                    <li>
-                        <a href="">Vacatures</a>
-                    </li>
-                    <li>                            
-                        <a href="">Contact</a>
-                    </li>         
-                </ul>
+                <div class="row">
+                    <div class="col-3">
+                        <li>
+                            <a href="">Welkom!</a>
+                        </li>
+                        <li>
+                            <a href="">Ik ben nieuw</a>
+                            <p>Hoe gaat het er aan toe op De Meerpaal?</p>
+                        </li>
+                        <li>
+                            <a href="">Mijn school</a>
+                            <p>Informatie over ziekte en verlof en de leerlingenraad</p>
+                        </li>
+                        <li>                            
+                            <a href="">Voor ouders</a>
+                            <p>Informatie over protocollen, ouderbijdrage en verzekeringen.</p>
+                        </li>
+                        <li>
+                            <a href="">Aanmelden</a>
+                            <p>Alles over kennismaken, de toelatingseisen en de aanmeldprocedure</p>
+                        </li>   
+                    </div>
+                    <div class="col-3">
+                        <li>
+                            <a href="">Agenda</a>
+                        </li>
+                        <li>
+                            <a href="">Nieuws</a>
+                        </li>
+                        <li>
+                            <a href="">Vacatures</a>
+                        </li>
+                        <li>                            
+                            <a href="">Contact</a>
+                        </li>
+                    </div>
+                </div>         
+            </ul>
 
             <!-- section content 1 -->
             <div class="item1">
