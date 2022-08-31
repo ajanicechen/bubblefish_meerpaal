@@ -39,6 +39,7 @@ body {
 .menu{
     grid-area: menu;
     width: 8.3 vw;
+    cursor: pointer;
 }
 
 .menuItems{
