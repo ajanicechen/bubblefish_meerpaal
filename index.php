@@ -42,38 +42,6 @@
     <body>
         <!-- Container -->
         <div class="content-container">
-            <!-- Logo's -->
-            <div class="menu sticky-top overflow-hidden">
-                <!-- <div class=""> -->
-                    <img class="svg-img" id="menuBtn" src="resources/Group_715.svg"></img>
-                    <img class="svg-img" src="resources/Group_716.svg"></img>
-                    <img class="svg-img" src="resources/Group_717.svg"></img>  
-
-                    <!-- Menu -->
-                    <ul class="menuItems" id="menuItems">
-                        <li>
-                            <a href="">Welkom!</a>
-                        </li>
-                        <li>
-                            <a href="">Ik ben nieuw</a>
-                            <p>Hoe gaat het er aan toe op De Meerpaal?</p>
-                        </li>
-                        <li>
-                            <a href="">Mijn school</a>
-                            <p>Informatie over ziekte en verlof en de leerlingenraad</p>
-                        </li>
-                        <li>
-                            <a href="">Voor ouders</a>
-                            <p>Informatie over protocollen, ouderbijdrage en verzekeringen.</p>
-                        </li>
-                        <li>
-                            <a href="">Aanmelden</a>
-                            <p>Alles over kennismaken, de toelatingseisen en de aanmeldprocedure</p>
-                        </li>
-                    </ul>
-                <!-- </div> -->
-
-            </div>
 
             <!-- Navbar -->
             <nav class="navbar navbar-expand-lg">
@@ -85,6 +53,39 @@
                     </form>
                 </div>
             </nav>
+
+            <!-- Logo's -->
+            <div class="menu sticky-top overflow-hidden">
+                <!-- <div class=""> -->
+                    <!-- <img class="svg-img" id="menuBtn" src="resources/Group_715_cross.svg"></img> -->
+                    <img class="svg-img" id="menuBtn" src="resources/Group_715.svg"></img>
+                    <img class="svg-img" src="resources/Group_716.svg"></img>
+                    <img class="svg-img" src="resources/Group_717.svg"></img>  
+                <!-- </div> -->
+
+                <!-- Menu -->
+                <ul class="menuItems" id="menuItems">
+                    <li>
+                        <a href="">Welkom!</a>
+                    </li>
+                    <li>
+                        <a href="">Ik ben nieuw</a>
+                        <p>Hoe gaat het er aan toe op De Meerpaal?</p>
+                    </li>
+                    <li>
+                        <a href="">Mijn school</a>
+                        <p>Informatie over ziekte en verlof en de leerlingenraad</p>
+                    </li>
+                    <li>                            
+                        <a href="">Voor ouders</a>
+                        <p>Informatie over protocollen, ouderbijdrage en verzekeringen.</p>
+                    </li>
+                    <li>
+                        <a href="">Aanmelden</a>
+                        <p>Alles over kennismaken, de toelatingseisen en de aanmeldprocedure</p>
+                    </li>                    
+                </ul>
+            </div>
 
             <!-- section content 1 -->
             <div class="item1">
