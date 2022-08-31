@@ -72,6 +72,11 @@ body {
     color: #FFFDEF
 }
 
+.menuItems > li:hover > a,
+.menuItems > li:hover > p{
+    color: #004069;
+}
+
 .menuTag{
     font-size: 30px;
     color: #E8348B;
@@ -302,13 +307,17 @@ li{
     border-radius: 50px;
 } */
 
+.yellowContainer{
+    margin-bottom: 81px;
+}
+
 .yellowCard{
     height: 84px;
     width: 400px;
     background-color: #FFDD00;
     border: 1px solid #FFDD00;
     border-radius: 0%;
-    margin: 10px;
+    margin: 10px 0;
 }
 
 .yellowCard:hover{
@@ -319,7 +328,8 @@ li{
     color: #FFDD00;
 }
 
-.yellowCard > div > .title{
+.yellowCard > div > .title,
+.whiteCard > div > .title{
     font-size: 17px;
     font-weight: bold;
     margin-left:30;
@@ -335,4 +345,30 @@ li{
     position: absolute;
     top: 23px;
     right: 35px;
+}
+
+.whiteCard{
+    height: 166;
+    width: 425;
+    background-color: #FFFDEF;
+    border: 1px solid #FFFDEF;
+    border-radius: 0%;
+    margin: 10px 0;
+}
+
+.whiteCard > div > .title{
+    color: #0096D6;
+}
+
+.whiteCard > div > .txt{
+    font-size: 24px;
+    margin: 0 30px 11px 30px
+    /* margin-left: 30px;
+    margin-right: 30px; */
+}
+
+.whiteCard > div > .cardFooter{
+    font-size: 17px;
+    font-style: italic;
+    margin-left:30;
 }

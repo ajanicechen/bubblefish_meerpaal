@@ -120,53 +120,60 @@
                     <div class="row justify-content-start">
                         <div class="col-6">
                             <h4>Om te noteren</h4>
-                            <div class="card yellowCard">
-                                <div class="card-body">
-                                    <p class="title">14 mei 2022</p>
-                                    <p class="txt">Studiedag</p>
-                                    <p class="arrowR">→</p>
+                            <div class="yellowContainer">
+                                <div class="card yellowCard">
+                                    <div class="card-body">
+                                        <p class="title">14 mei 2022</p>
+                                        <p class="txt">Studiedag</p>
+                                        <p class="arrowR">→</p>
+                                    </div>
+                                </div>
+                                <div class="card yellowCard">
+                                    <div class="card-body">
+                                        <p class="title">27 april t/m 12 mei 2022</p>
+                                        <p class="txt">Meivakantie</p>
+                                        <p class="arrowR">→</p>
+                                    </div>
+                                </div>
+                                <div class="card yellowCard">
+                                    <div class="card-body">
+                                        <p class="title">24 mei t/m 2 juni 2022</p>
+                                        <p class="txt">Toetsweken</p>
+                                        <p class="arrowR">→</p>
+                                    </div>
+                                </div>
+                                <div class="card yellowCard">
+                                    <div class="card-body">
+                                        <p class="title">15 juni 2022</p>
+                                        <p class="txt">Studiedag</p>
+                                        <p class="arrowR">→</p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="card yellowCard">
-                                <div class="card-body">
-                                    <p class="title">27 april t/m 12 mei 2022</p>
-                                    <p class="txt">Meivakantie</p>
-                                    <p class="arrowR">→</p>
-                                </div>
-                            </div>
-                            <div class="card yellowCard">
-                                <div class="card-body">
-                                    <p class="title">24 mei t/m 2 juni 2022</p>
-                                    <p class="txt">Toetsweken</p>
-                                    <p class="arrowR">→</p>
-                                </div>
-                            </div>
-                            <div class="card yellowCard">
-                                <div class="card-body">
-                                    <p class="title">15 juni 2022</p>
-                                    <p class="txt">Studiedag</p>
-                                    <p class="arrowR">→</p>
-                                </div>
-                            </div>
+                            <a class="blue-btn" href="#">Agenda →</a>
+                            <a class="blue-btn" href="#">Nieuws →</a>
                         </div>
                         <div class="col-6">
                             <h4>Nieuws</h4>
-                            <div class="card">
+                            <div class="card whiteCard">
                                 <div class="card-body">
-                                    <p>BREAKING</p>
-                                    <p>De Meerpaal tijdelijk niet telefonisch bereikbaar</p>
+                                    <p class="title">BREAKING</p>
+                                    <p class="txt">De Meerpaal tijdelijk niet telefonisch bereikbaar</p>
+                                    <p class="cardFooter">2 uur geleden</p>
                                 </div>
                             </div>
-                            <div class="card">
+                            <div class="card whiteCard">
                                 <div class="card-body">
-                                    <p>NIEUWS</p>
-                                    <p>De Meerpaal bestaat 40 jaar en dat mag gevierd worden!</p>
+                                    <p class="title">NIEUWS</p>
+                                    <p class="txt">De Meerpaal bestaat 40 jaar en dat mag gevierd worden!</p>
+                                    <p class="cardFooter">6 dagen geleden</p>
                                 </div>
                             </div>
-                            <div class="card">
+                            <div class="card whiteCard">
                                 <div class="card-body">
-                                    <p>LEERLINGVERHALEN</p>
-                                    <p>De eerste schooldag van Joanne was even wennen</p>
+                                    <p class="title">LEERLINGVERHALEN</p>
+                                    <p class="txt">De eerste schooldag van Joanne was even wennen</p>
+                                    <p class="cardFooter">15 juni 2022</p>
                                 </div>
                             </div>
                         </div>
