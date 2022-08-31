@@ -10,14 +10,14 @@ body {
 .content-container{
     display: grid;
     grid-template-areas: 
-        "menu header right"
-        "menu item1 right"
-        "item2 item2 right"
-        "item3 item3 right"
-        "item4 item4 right"
-        "footer footer right";
+        "header"
+        "item1"
+        "item2"
+        "item3"
+        "item4"
+        "footer";
     background-color: #FFFDEF;
-    width: 100vw;
+    max-width: 100vw;
 }
 
 .content-container > nav{
@@ -30,29 +30,30 @@ body {
 }
 
 .svg-img{
-    /* height: 160px;
-    width: 160px; */
     display: block;
     height: 14.8vh;
 }
 
 .menu{
-    grid-area: menu;
     width: 8.3 vw;
     cursor: pointer;
+    position: fixed;
 }
 
 .menuItems{
     background-color: #FE308D;
-    width: 66%;
-    /* left: -100%; */
-    transform: translateX(-100%);
+    width: 100%;
+    height: 100%;
+    /* top: 0;
+    left: 0; */
+    position: fixed;
+    transform: translateX(-200%);
     transition: 0.5s;
 }
 
 .showMenu{
-    /* left: 0px; */
-    transform: translateX(0);
+    /* left: 0; */
+    display: block;
 }
 
 .menuItems > li > a{
@@ -84,10 +85,9 @@ body {
 }
 
 .right-img{
-    grid-area: right;
-    /* position: absolute; */
-    /* right: 0px; */
     height: 100vh;
+    position: fixed;
+    float: right;
 }
 
 .item1{
@@ -97,14 +97,13 @@ body {
     /* padding-right: 120px; */
     /* left: 280px; */
     /* padding: 75px 75px 75px 75px; */
-    padding: 75px 0 75px 75px;
+    padding: 132px 760px 75px 280px;
 }
 
 .item2{
     grid-area: item2;
     text-align: left;
-    /* padding-left: 280px;
-    padding-right: 120px; */
+    padding: 132px 760px 75px 280px;
     padding: 75px 0 75px 220;
     background-color: #004069;
 }
@@ -112,24 +111,21 @@ body {
 .item3{
     grid-area: item3;
     text-align: left;
-    /* padding-left: 280px;
-    /* padding-right: 120px; */
+    padding: 132px 760px 75px 280px;
     padding: 75px 0 75px 220;
 }
 
 .item4{
     grid-area: item4;
     text-align: left;
-    /* padding-left: 280px;
-    padding-right: 120px; */
-    padding: 75px 0 75px 220;
+    padding: 132px 760px 75px 280px;
     background-color: #004069;
 }
 
 .footer{
     grid-area: footer;
     text-align: left;
-    padding: 75px 0 75px 220;
+    padding: 132px 760px 75px 280px;
     background-color: #ffdd00;
 }
 

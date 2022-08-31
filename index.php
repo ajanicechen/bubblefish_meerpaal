@@ -42,7 +42,6 @@
     <body>
         <!-- Container -->
         <div class="content-container">
-
             <!-- Navbar -->
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid align-middle header top-0">
@@ -62,9 +61,10 @@
                     <img class="svg-img" src="resources/Group_716.svg"></img>
                     <img class="svg-img" src="resources/Group_717.svg"></img>  
                 <!-- </div> -->
+            </div>
 
-                <!-- Menu -->
-                <ul class="menuItems" id="menuItems">
+            <!-- Menu -->
+            <ul class="menuItems" id="menuItems">
                     <li>
                         <a href="">Welkom!</a>
                     </li>
@@ -83,9 +83,20 @@
                     <li>
                         <a href="">Aanmelden</a>
                         <p>Alles over kennismaken, de toelatingseisen en de aanmeldprocedure</p>
-                    </li>                    
+                    </li>    
+                    <li>
+                        <a href="">Agenda</a>
+                    </li>
+                    <li>
+                        <a href="">Nieuws</a>
+                    </li>
+                    <li>
+                        <a href="">Vacatures</a>
+                    </li>
+                    <li>                            
+                        <a href="">Contact</a>
+                    </li>              
                 </ul>
-            </div>
 
             <!-- section content 1 -->
             <div class="item1">
@@ -194,7 +205,7 @@
                     </div>
                 </div>
             </div>
-            <img class="right-img sticky-top" src="resources/Rectangle_177.png">
+            <img class="right-img sticky-top top-0 end-0" src="resources/Rectangle_177.png">
         </div>
 
         <!-- load js -->
