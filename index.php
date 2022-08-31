@@ -42,6 +42,7 @@
     <body>
         <!-- Container -->
         <div class="content-container">
+            
             <!-- Navbar -->
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid align-middle header top-0">

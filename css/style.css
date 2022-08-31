@@ -53,7 +53,8 @@ body {
 
 .showMenu{
     /* left: 0; */
-    display: block;
+    /* display: block; */
+    transform: translateX(0);
 }
 
 .menuItems > li > a{
@@ -104,7 +105,6 @@ body {
     grid-area: item2;
     text-align: left;
     padding: 132px 760px 75px 280px;
-    padding: 75px 0 75px 220;
     background-color: #004069;
 }
 
@@ -112,7 +112,6 @@ body {
     grid-area: item3;
     text-align: left;
     padding: 132px 760px 75px 280px;
-    padding: 75px 0 75px 220;
 }
 
 .item4{
