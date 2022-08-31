@@ -80,7 +80,7 @@ body {
     /* align-items: left; */
     grid-area: header;
     /* right: 39.5 vw; */
-    padding: 0 0;
+    padding: 5 450px 0 190px;
     margin: 0 0;
     /* margin-left: 35.7vw; */
 }
@@ -117,7 +117,7 @@ body {
 .item4{
     grid-area: item4;
     text-align: left;
-    padding: 132px 760px 75px 280px;
+    padding: 132px 760px 180px 280px;
     background-color: #004069;
 }
 
@@ -181,21 +181,19 @@ p{
 
 .item4 > h1{
     font-size: 53px;
-    margin-top: 151px;
-    margin-bottom: 36px;
     color: #E8348B;
 }
 
 .p-white{
     color: #fffdef;
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 75px;
     width: 45vw;
 }
 
 .p-blue{
     color: #004069;
-    font-size: 18px;
+    font-size: 20px;
     width: 45vw;
     /* margin-bottom: 75px; */
 }
@@ -252,6 +250,13 @@ li{
     display: flex;
     background-color: #E8348B;
     padding: 26px 250px 26px 30px;
+    position: relative;
+}
+
+.extLinkIcon{
+    position: absolute;
+    top: 32px;
+    right: 36px;
 }
 
 .pink-btn > a{

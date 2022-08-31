@@ -22,6 +22,12 @@
     weer onderdeel van CVO Rotterdam, de vereniging voor Christelijk Voortgezet Onderwijs. 
     Onderdeel van het CVO is ook een shared-service-organisatie die veel van de 
     administratieve taken van De Meerpaal op zich neemt.";
+
+    // section 4
+    $join = "Ook het anker uitgooien?";
+    $joinInfo = "Heb je het advies vmbo-tl, -kb of -bb gekregen? En zoek je een school met extra begeleiding? 
+    De Meerpaal is dan misschien een goede school voor jou. Check de pagina Ik ben nieuw om 
+    te zien wat je van ons kan verwachten.";
 ?>
 
 <html>
@@ -30,7 +36,7 @@
         <title>meerpaal</title>
 
         <!-- Stylesheet Iskra Font -->
-        <!-- <link href="//db.onlinewebfonts.com/c/2111f7d4b53c115e872c6151b09af646?family=Iskra" rel="stylesheet" type="text/css"/> -->
+        <link href="//db.onlinewebfonts.com/c/2111f7d4b53c115e872c6151b09af646?family=Iskra" rel="stylesheet" type="text/css"/>
 
         <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
         
@@ -42,7 +48,7 @@
     <body>
         <!-- Container -->
         <div class="content-container">
-            
+
             <!-- Navbar -->
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid align-middle header top-0">
@@ -57,7 +63,6 @@
             <!-- Logo's -->
             <div class="menu sticky-top overflow-hidden">
                 <!-- <div class=""> -->
-                    <!-- <img class="svg-img" id="menuBtn" src="resources/Group_715_cross.svg"></img> -->
                     <img class="svg-img" id="menuBtn" src="resources/Group_715.svg"></img>
                     <img class="svg-img" src="resources/Group_716.svg"></img>
                     <img class="svg-img" src="resources/Group_717.svg"></img>  
@@ -128,9 +133,9 @@
                             Download de schoolgids of ga naar de pagina <i>Mijn school</i>.
                         </p>
 
-                        <div class="pink-btn d-flex">
+                        <div class="pink-btn">
                             <a class="" href="#">Download de schoolgids</a>
-                            <iframe class="iframe-svg justify-content-end" src="resources/Icon_feather-external-link.svg"></iframe>
+                            <img class="extLinkIcon" src="resources/Icon_feather-external-link.svg"></iframe>
                         </div>
                         
                         <a class="blue-btn" href="#">Mijn school →</a>
@@ -150,21 +155,18 @@
                 <div>
                     <h6><?php echo $comenius;?></h6>
                     <p class="p-blue"><?php echo $comeniusDescription;?></p>
-                    <div class="pink-btn d-flex">
+                    <div class="pink-btn">
                         <a class="" href="#">Download de schoolgids</a>
-                        <iframe class="iframe-svg justify-content-end" src="resources/Icon_feather-external-link.svg"></iframe>
+                        <img class="extLinkIcon" src="resources/Icon_feather-external-link.svg"></iframe>
                     </div>
                 </div>
             </div>
             
             <!-- section content 4 -->
             <div class="item4">
-                <h1>Ook het anker uitgooien?</h1>
-                <p class="p-white">
-                    Heb je het advies vmbo-tl, -kb of -bb gekregen? En zoek je een school met extra begeleiding? 
-                    De Meerpaal is dan misschien een goede school voor jou. Check de pagina Ik ben nieuw om 
-                    te zien wat je van ons kan verwachten.
-                </p>
+                <h1><?php echo $join;?></h1>
+                <p class="p-white"><?php echo $joinInfo;?></p>
+                <a class="blue-btn" href="#">Ik ben nieuw →</a>
             </div>
             
             <!-- footer -->
