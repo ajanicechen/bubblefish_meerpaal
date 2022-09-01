@@ -6,7 +6,7 @@
 
     //section 2 / item2
 
-    
+
     //section 3 / item3
     $vision = "Onderwijsvisie";
     $safety = "Veilige leeromgeving";
@@ -185,7 +185,7 @@
                         </div>
                     </div>
 
-                    <div class="justify-content-start">
+                    <div class="justify-content-start guide">
                         <h3>Ahoy Meerpaler!</h3>
                         <p class="p-white">
                             Op zoek naar informatie over vakanties, verlof of de leerlingenraad? 
