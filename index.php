@@ -217,7 +217,7 @@
 
             <!-- section content 3 -->
             <div class="item3 blue-waves2">
-                <div class="item3a">
+                <div class="">
                     <h5><?php echo $vision;?></h5>
                     <h6><?php echo $safety;?></h6>
                     <p class="p-blue"><?php echo $safetyDescription; ?></p>
@@ -225,7 +225,10 @@
                 </div>
 
                 <!-- line goes through here??? -->
-                <!-- <hr class="rope"></hr> -->
+                <div class="rope-wrapper">
+                    <!-- <img class="" src="resources/rope.svg"></img> -->
+                    <div class="rope"></div>
+                </div>
 
                 <div class="">
                     <h6><?php echo $comenius;?></h6>

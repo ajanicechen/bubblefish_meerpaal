@@ -185,14 +185,6 @@ p{
     margin-bottom: 30px;
 }
 
-.item3a{
-    margin-bottom: 150px;
-}
-
-.item3b{
-    margin-top: 150px;
-}
-
 .item4 > h1{
     font-size: 53px;
     color: #E8348B;
@@ -389,15 +381,6 @@ li{
     text-decoration: none;
 }
 
-.rope{
-    border: 10px solid #E8348B;
-    opacity: 100%;
-    /* margin: 106px 0px; */
-    position: absolute;
-    width: 100%;
-    left: 0;
-}
-
 .menu-ext-btn{
     color: #FFFDEF;
     text-decoration: none;
@@ -510,6 +493,20 @@ li{
         .yellow-waves::before{
         background-size: 100% calc(2vw + 26px);
     }
+}
+
+.rope{
+    position: absolute;
+    background-image: url(../resources/rope.svg);
+    height: 19px;
+    margin: 10px;
+    margin-left: -20vw;
+    width: 100vw;
+}
+
+.rope-wrapper{
+    height: 10px;
+    margin: 10vh;
 }
 
 @media screen and (max-width: 1440px) {
