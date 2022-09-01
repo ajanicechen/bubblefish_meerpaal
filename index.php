@@ -40,6 +40,9 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
         
+        <!-- font awesome -->
+        <script src="https://kit.fontawesome.com/2d00bc2e49.js" crossorigin="anonymous"></script>
+
         <!-- Bootstrap and own stylesheet -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
@@ -107,11 +110,21 @@
                             <a href="">Contact</a>
                         </li>
                     </div>
+                    <div class="fixed-bottom menu-ext-btn-wrap">
+                        <a href="#" class="menu-ext-btn">
+                            Portaal
+                            <i class="fa-solid fa-up-right-from-square"></i>
+                        </a>
+                        <a href="#" class="menu-ext-btn">
+                            Comenius
+                            <i class="fa-solid fa-up-right-from-square"></i>
+                        </a>
+                    </div>
                 </div>         
             </ul>
 
             <!-- section content 1 -->
-            <div class="item1">
+            <div class="item1 blue-waves">
                 <h1><?php echo $welcome; ?></h1>
                 <h2><?php echo $greet; ?></h2>
                 <p class="intro"><?php echo $intro; ?></p>
@@ -203,15 +216,18 @@
             </div>
 
             <!-- section content 3 -->
-            <div class="item3">
-                <h5><?php echo $vision;?></h5>
-                <h6><?php echo $safety;?></h6>
-                <p class="p-blue"><?php echo $safetyDescription; ?></p>
-                <a class="white-btn" href="#">Voor ouders →</a>
+            <div class="item3 blue-waves2">
+                <div class="item3a">
+                    <h5><?php echo $vision;?></h5>
+                    <h6><?php echo $safety;?></h6>
+                    <p class="p-blue"><?php echo $safetyDescription; ?></p>
+                    <a class="white-btn" href="#">Voor ouders →</a>
+                </div>
 
                 <!-- line goes through here??? -->
+                <!-- <hr class="rope"></hr> -->
 
-                <div>
+                <div class="">
                     <h6><?php echo $comenius;?></h6>
                     <p class="p-blue"><?php echo $comeniusDescription;?></p>
                     <div class="pink-btn">
@@ -246,7 +262,11 @@
                             <li>van 08.00 tot 16.30 uur </li>
                             <br>
                             <li>010 286 1313 </li>
-                            <li>info@vmbo-demeerpaal.nl</li>
+                            <li><a href="mailto:info@vmbo-demeerpaal.nl">info@vmbo-demeerpaal.nl</a></li>
+                            <li>
+                                <a href="" class="fa-brands fa-instagram socials"></a>
+                                <a href="" class="fa-brands fa-square-facebook socials"></a>
+                            </li>
                         </ul>
                     </div>
                     <div class="col-4">
