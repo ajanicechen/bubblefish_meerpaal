@@ -1,4 +1,16 @@
 <?php 
+    // load footer.json
+    $footerJson = file_get_contents('json/footer.json');
+    $page = json_decode($footerJson);
+    $footer = $page->footer;
+    $contact = $footer->contact;
+    $sitemap = $footer->sitemap;
+
+    // print_r($footer);
+    
+    // var_dump($footer->credits);
+    // exit();
+
     // Section 1/ item1
     $welcome = "Welkom!";
     $greet = "Leg aan in onze haven";
@@ -28,6 +40,7 @@
     $joinInfo = "Heb je het advies vmbo-tl, -kb of -bb gekregen? En zoek je een school met extra begeleiding? 
     De Meerpaal is dan misschien een goede school voor jou. Check de pagina Ik ben nieuw om 
     te zien wat je van ons kan verwachten.";
+
 ?>
 
 <html>
@@ -252,20 +265,20 @@
                 <div class="row align-items-start">
                     <div class="col-4">
                         <ul>
-                            <li>©2022 Calvijn</li>
-                            <li><a href="">Privacyverklaring</a></li>                                
-                            <li>Ontwerp Doordacht</li>
+                            <?php foreach ($footer->credits as $credit): ?> 
+                            <li><?= $credit ?></li>
+                            <?php endforeach; ?>
                         </ul>
                     </div>
                     <div class="col-4">
                         <ul>
-                            <li>Contact Kreeftstraat 44</li>
-                            <li>3067 JV Rotterdam </li>
-                            <li>Op schooldagen open </li>
-                            <li>van 08.00 tot 16.30 uur </li>
+                            <li><?= $contact->title ?></li>
+                            <li><?= $contact->adres ?></li>
+                            <li><?= $contact->postalcode ?></li>
+                            <li><?= $contact->openinghours ?></li>
                             <br>
-                            <li>010 286 1313 </li>
-                            <li><a href="mailto:info@vmbo-demeerpaal.nl">info@vmbo-demeerpaal.nl</a></li>
+                            <li><?= $contact->phone ?></li>
+                            <li><a href="mailto:<?= $contact->mail ?>"><?= $contact->mail ?></a></li>
                             <li>
                                 <a href="" class="fa-brands fa-instagram socials"></a>
                                 <a href="" class="fa-brands fa-square-facebook socials"></a>
@@ -274,18 +287,14 @@
                     </div>
                     <div class="col-4">
                         <ul>
-                            <li>Sitemap </li>
-                            <li>Welkom </li>
-                            <li>Ik ben nieuw</li> 
-                            <li>Mijn school </li>
-                            <li>Voor ouders </li>
-                            <li>Organisatie </li>
-                            <li>Nieuws </li>
-                            <li>Agenda </li>
-                            <li>Vacatures </li>
-                            <li>Contact </li>
-                            <li>Portaal↗ </li>
-                            <li>Comenius↗</li>
+                            <li><?= $sitemap->title ?></li>
+                            <?php foreach($sitemap->links as $link): ?>
+                            <li>
+                                <a href='/<?= urlencode($link) ?>'>
+                                    <?= $link ?>
+                                </a>
+                            </li>
+                            <?php endforeach ?>
                         </ul>
                     </div>
                 </div>

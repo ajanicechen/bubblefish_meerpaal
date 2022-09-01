@@ -1,0 +1,33 @@
+{
+    "footer":   {
+        "credits" : {
+            "copyright" : "©2022 Calvijn", 
+            "privacy" : "Privacyverklaring", 
+            "design" : "Ontwerp Doordacht"
+        },
+        "contact" : {
+            "title" : "Contact",
+            "adres" : "Kreeftstraat",
+            "postalcode" :  "44 3067 JV Rotterdam",
+            "openinghours" : "Op schooldagen open van 08.00 tot 16.30 uur",
+            "phone" : "010 286 1313", 
+            "mail" : "info@vmbo-demeerpaal.nl"
+        },
+        "sitemap": {
+            "title": "Sitemap",
+            "links": {
+                "Welkom" : "Welkom",
+                "Ik ben nieuw" : "Ik ben nieuw",
+                "Mijn school" : "Mijn school",
+                "Voor ouders" : "Voor ouders",
+                "Organisatie" : "Organisatie",
+                "Nieuws" : "Nieuws",
+                "Agenda" : "Agenda",
+                "Vacatures" : "Vacatures",
+                "Contact" : "Contact",
+                "Portaal↗" : "Portaal↗",
+                "Comenius↗" : "Comenius↗"
+            }
+        }
+    }
+}

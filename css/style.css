@@ -509,6 +509,11 @@ li{
     margin: 10vh;
 }
 
+.footer > div > div > ul > li,
+.footer > div > div > ul > li > a{
+    color: #004069;
+}
+
 @media screen and (max-width: 1440px) {
 
     .header{
