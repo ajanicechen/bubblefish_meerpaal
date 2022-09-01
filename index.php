@@ -2,9 +2,11 @@
     // load footer.json
     $footerJson = file_get_contents('json/footer.json');
     $page = json_decode($footerJson);
-    $section2 = $page->section2;
-    $events = $section2->events;
-    $posts = $section2->posts;
+    $actualSection = $page->actual;
+    $events = $actualSection->events;
+    $posts = $actualSection->posts;
+    $guide = $page->guide;
+
     $footer = $page->footer;
     $contact = $footer->contact;
     $sitemap = $footer->sitemap;
@@ -150,8 +152,7 @@
             <!-- section content 2 -->
             <div class="item2 round-waves">
                 <div class="container">
-                    <h3>Actueel</h3>
-
+                    <h3><?= $actualSection->title; ?></h3>
                     <div class="row justify-content-start">
                         <div class="col-6">
                             <h4><?= $events->title; ?></h4>
@@ -180,36 +181,19 @@
                                 </div>
                             </div>
                             <?php endforeach; ?>
-                            <!-- <div class="card whiteCard">
-                                <div class="card-body">
-                                    <p class="title">NIEUWS</p>
-                                    <p class="txt">De Meerpaal bestaat 40 jaar en dat mag gevierd worden!</p>
-                                    <p class="cardFooter">6 dagen geleden</p>
-                                </div>
-                            </div>
-                            <div class="card whiteCard">
-                                <div class="card-body">
-                                    <p class="title">LEERLINGVERHALEN</p>
-                                    <p class="txt">De eerste schooldag van Joanne was even wennen</p>
-                                    <p class="cardFooter">15 juni 2022</p>
-                                </div>
-                            </div> -->
                         </div>
                     </div>
 
                     <div class="justify-content-start guide">
-                        <h3>Ahoy Meerpaler!</h3>
-                        <p class="p-white">
-                            Op zoek naar informatie over vakanties, verlof of de leerlingenraad? 
-                            Download de schoolgids of ga naar de pagina <i>Mijn school</i>.
-                        </p>
+                        <h3><?= $guide->title; ?></h3>
+                        <p class="p-white"><?= $guide->description; ?></p>
 
                         <div class="pink-btn">
-                            <a class="" href="#">Download de schoolgids</a>
+                            <a class="" href="#"><?= $guide->pinkButton; ?></a>
                             <img class="extLinkIcon" src="resources/Icon_feather-external-link.svg"></iframe>
                         </div>
                         
-                        <a class="blue-btn" href="#">Mijn school →</a>
+                        <a class="blue-btn" href="#"><?= $guide->blueButton; ?></a>
                     </div>
                 </div>
             </div>

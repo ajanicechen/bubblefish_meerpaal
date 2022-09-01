@@ -1,5 +1,6 @@
 {   
-    "section2" : {
+    "actual" : {
+        "title" : "Actueel",
         "events" : {
         "title" : "Om te noteren",
         "cards" : [
@@ -40,6 +41,14 @@
             }]
         } 
     },
+
+    "guide" : {
+        "title" : "Ahoy Meerpaler!",
+        "description" : "Op zoek naar informatie over vakanties, verlof of de leerlingenraad? Download de schoolgids of ga naar de pagina Mijn school.",
+        "pinkButton" : "Download de schoolgids",
+        "blueButton" : "Mijn school →"
+    },
+
     "footer":   {
         "credits" : {
             "copyright" : "©2022 Calvijn", 
