@@ -1,4 +1,45 @@
-{
+{   
+    "section2" : {
+        "events" : {
+        "title" : "Om te noteren",
+        "cards" : [
+            {
+                "date" : "14 mei 2022",
+                "description" : "Studiedag"
+            },
+            {
+                "date" : "27 april t/m 12 mei 2022",
+                "description" : "Meivakantie"
+            },
+            {
+                "date" : "24 mei t/m 2 juni 2022",
+                "description" : "Toetsweken"
+            },
+            {
+                "date" : "15 juni 2022",
+                "description" : "Studiedag"
+            }]
+        },
+        "posts" : {
+            "title" : "Nieuws",
+            "cards" : [
+            {
+                "title" : "BREAKING",
+                "description" : "De Meerpaal tijdelijk niet telefonisch bereikbaar",
+                "date" : "2 uur geleden"
+            },
+            {
+                "title" : "NIEUWS",
+                "description" : "De Meerpaal bestaat 40 jaar en dat mag gevierd worden!",
+                "date" : "6 dagen geleden"
+            },
+            {
+                "title" : "LEERLINGVERHALEN",
+                "description" : "De eerste schooldag van Joanne was even wennen",
+                "date" : "15 juni 2022"
+            }]
+        } 
+    },
     "footer":   {
         "credits" : {
             "copyright" : "©2022 Calvijn", 

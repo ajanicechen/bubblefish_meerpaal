@@ -2,14 +2,17 @@
     // load footer.json
     $footerJson = file_get_contents('json/footer.json');
     $page = json_decode($footerJson);
+    $section2 = $page->section2;
+    $events = $section2->events;
+    $posts = $section2->posts;
     $footer = $page->footer;
     $contact = $footer->contact;
     $sitemap = $footer->sitemap;
 
-    // print_r($footer);
-    
-    // var_dump($footer->credits);
+    // var_dump($events[0]->date);
     // exit();
+
+    // var_dump($footer->credits);
 
     // Section 1/ item1
     $welcome = "Welkom!";
@@ -151,50 +154,33 @@
 
                     <div class="row justify-content-start">
                         <div class="col-6">
-                            <h4>Om te noteren</h4>
+                            <h4><?= $events->title; ?></h4>
                             <div class="yellowContainer">
+                                <?php foreach ($events->cards as $card): ?>
                                 <div class="card yellowCard">
                                     <div class="card-body">
-                                        <p class="title">14 mei 2022</p>
-                                        <p class="txt">Studiedag</p>
+                                        <p class="title"><?= $card->date ?></p>
+                                        <p class="txt"><?= $card->description ?></p>
                                         <p class="arrowR">→</p>
                                     </div>
                                 </div>
-                                <div class="card yellowCard">
-                                    <div class="card-body">
-                                        <p class="title">27 april t/m 12 mei 2022</p>
-                                        <p class="txt">Meivakantie</p>
-                                        <p class="arrowR">→</p>
-                                    </div>
-                                </div>
-                                <div class="card yellowCard">
-                                    <div class="card-body">
-                                        <p class="title">24 mei t/m 2 juni 2022</p>
-                                        <p class="txt">Toetsweken</p>
-                                        <p class="arrowR">→</p>
-                                    </div>
-                                </div>
-                                <div class="card yellowCard">
-                                    <div class="card-body">
-                                        <p class="title">15 juni 2022</p>
-                                        <p class="txt">Studiedag</p>
-                                        <p class="arrowR">→</p>
-                                    </div>
-                                </div>
+                                <?php endforeach; ?>
                             </div>
                             <a class="blue-btn" href="#">Agenda →</a>
                             <a class="blue-btn" href="#">Nieuws →</a>
                         </div>
                         <div class="col-6">
-                            <h4>Nieuws</h4>
+                            <h4><?= $posts->title; ?></h4>
+                            <?php foreach ($posts->cards as $card): ?>
                             <div class="card whiteCard">
                                 <div class="card-body">
-                                    <p class="title">BREAKING</p>
-                                    <p class="txt">De Meerpaal tijdelijk niet telefonisch bereikbaar</p>
-                                    <p class="cardFooter">2 uur geleden</p>
+                                    <p class="title"><?= $card->title ?></p>
+                                    <p class="txt"><?= $card->description ?></p>
+                                    <p class="cardFooter"><?= $card->date ?></p>
                                 </div>
                             </div>
-                            <div class="card whiteCard">
+                            <?php endforeach; ?>
+                            <!-- <div class="card whiteCard">
                                 <div class="card-body">
                                     <p class="title">NIEUWS</p>
                                     <p class="txt">De Meerpaal bestaat 40 jaar en dat mag gevierd worden!</p>
@@ -207,7 +193,7 @@
                                     <p class="txt">De eerste schooldag van Joanne was even wennen</p>
                                     <p class="cardFooter">15 juni 2022</p>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
 
