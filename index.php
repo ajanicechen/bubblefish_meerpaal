@@ -132,7 +132,7 @@
             </div>
 
             <!-- section content 2 -->
-            <div class="item2">
+            <div class="item2 round-waves">
                 <div class="container">
                     <h3>Actueel</h3>
 
@@ -238,7 +238,7 @@
             </div>
             
             <!-- section content 4 -->
-            <div class="item4">
+            <div class="item4 yellow-waves">
                 <h1><?php echo $join;?></h1>
                 <p class="p-white"><?php echo $joinInfo;?></p>
                 <a class="blue-btn" href="#">Ik ben nieuw →</a>

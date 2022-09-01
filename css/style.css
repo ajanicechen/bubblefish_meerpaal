@@ -415,7 +415,7 @@ li{
     bottom: 90px;
 } */
 
-.blue-waves, .blue-waves2{
+.blue-waves, .blue-waves2, .round-waves, .yellow-waves{
     overflow:hidden;
     position:relative;
 }
@@ -424,7 +424,7 @@ li{
     content:
     '';
     position: absolute;
-    z-index: 3;
+    /* z-index: 3; */
     pointer-events: none;
     background-repeat: repeat-x;
     bottom: -0.1vw;
@@ -447,7 +447,7 @@ li{
     content:
     '';
     position: absolute;
-    z-index: 3;
+    /* z-index: 3; */
     pointer-events: none;
     background-repeat: repeat-x;
     bottom: -0.1vw;
@@ -462,6 +462,52 @@ li{
     
     @media (min-width:2100px){
         .blue-waves2::before{
+        background-size: 100% calc(2vw + 26px);
+    }
+}
+
+.round-waves::before{
+    content:
+    '';
+    position: absolute;
+    /* z-index: 3; */
+    pointer-events: none;
+    background-repeat: repeat-x;
+    bottom: -0.1vw;
+    left: -0.1vw;
+    right: -29.1vw;
+    top: -0.1vw;
+    background-size: 13% 71px;
+    background-position: 101% 103%;
+    transform: rotateY(180deg);
+    background-image: url('../resources/round_waves.svg');
+    }
+    
+    @media (min-width:2100px){
+        .round-waves::before{
+        background-size: 100% calc(2vw + 26px);
+    }
+}
+
+.yellow-waves::before{
+    content:
+    '';
+    position: absolute;
+    /* z-index: 3; */
+    pointer-events: none;
+    background-repeat: repeat-x;
+    bottom: -0.1vw;
+    left: -0.1vw;
+    right: -29.1vw;
+    top: -0.1vw;
+    background-size: 13% 71px;
+    background-position: 101% 111%;
+    transform: rotateY(180deg);
+    background-image: url('../resources/yellow_waves.svg');
+    }
+    
+    @media (min-width:2100px){
+        .yellow-waves::before{
         background-size: 100% calc(2vw + 26px);
     }
 }
