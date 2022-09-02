@@ -415,7 +415,7 @@ li{
     right: -29.1vw;
     top: -0.1vw;
     background-size: 13% 71px;
-    background-position: 101% 103.5%;
+    background-position: 101% 101.3%;;
     transform: rotateY(180deg);
     background-image: url('../resources/blue_waves.svg');
     }
@@ -437,8 +437,8 @@ li{
     left: -0.1vw;
     right: -29.1vw;
     top: -0.1vw;
-    background-size: 13% 71px;
-    background-position: 101% 101.75%;
+    background-size: 13% 72px;
+    background-position: 101% 101%;
     transform: rotateY(180deg);
     background-image: url('../resources/blue_waves.svg');
     }
@@ -461,7 +461,7 @@ li{
     right: -29.1vw;
     top: -0.1vw;
     background-size: 13% 71px;
-    background-position: 101% 103%;
+    background-position: 101% 102%;
     transform: rotateY(180deg);
     background-image: url('../resources/round_waves.svg');
     }
@@ -484,7 +484,7 @@ li{
     right: -29.1vw;
     top: -0.1vw;
     background-size: 13% 71px;
-    background-position: 101% 111%;
+    background-position: 101% 106%;
     transform: rotateY(180deg);
     background-image: url('../resources/yellow_waves.svg');
     }
@@ -498,9 +498,9 @@ li{
 .rope{
     position: absolute;
     background-image: url(../resources/rope.svg);
-    height: 19px;
+    height: 27px;
     margin: 10px;
-    margin-left: -20vw;
+    margin-left: -21vw;
     width: 100vw;
 }
 
@@ -648,5 +648,27 @@ li{
     .menu-ext-btn-wrap{
         left: 180px;
         bottom: 90px;
+    }
+
+    .blue-waves::before{
+        background-position: 101% 103.5%;
+    }
+
+    .blue-waves2::before{
+        background-size: 13% 71px;
+        background-position: 101% 101.75%;
+    }
+
+    .round-waves::before{
+        background-position: 101% 103%;
+    }
+
+    .yellow-waves::before{
+        background-position: 101% 111%;
+    }
+    
+    .rope{
+        height: 19px;
+        margin-left: -20vw;
     }
 }
