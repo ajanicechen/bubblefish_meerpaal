@@ -1,4 +1,11 @@
 {   
+    "intro" : {
+        "greet" : "Welkom!",
+        "title" : "Leg aan in onze haven",
+        "description" : "Op VMBO De Meerpaal valt niemand buiten de boot, wat je verhaal ook is. Of je nou moeite hebt met stilzitten of je last hebt van dyslexie, bij ons is het normaal dat iedereen bijzonder is. Door de vertrouwensband van leerling tot leerkracht en van conciërge tot ouder creëren wij een veilige omgeving waarin iedereen kan opbloeien. Leg aan in onze haven!",
+        "url" : "Ik ben nieuw"
+    },
+
     "actual" : {
         "title" : "Actueel",
         "events" : {
@@ -47,6 +54,19 @@
         "description" : "Op zoek naar informatie over vakanties, verlof of de leerlingenraad? Download de schoolgids of ga naar de pagina Mijn school.",
         "pinkButton" : "Download de schoolgids",
         "blueButton" : "Mijn school →"
+    },
+
+    "vision" :{
+        "title" : "Onderwijsvisie",
+        "safety" : "Veilige leeromgeving",
+        "description" : "De Meerpaal biedt kinderen die in cognitief of sociaal-emotioneel opzicht ‘anders’ zijn, een veilige en uitdagende leeromgeving. Daarom gaat ons onderwijs net een stapje verder dan op andere scholen. Zo hechten wij aan overzichtelijkheid en aandacht voor persoonlijke ontwikkeling. Bovendien heeft iedere leerling eigen leerdoelen, om onderwijs op maat te creëren.",
+        "url" : "Voor ouders"
+    },
+
+    "comenius" : {
+        "title" : "Onderdeel van Comenius",
+        "description" : "De Meerpaal is onderdeel van scholengroep Comenius College. Onder Comenius College vallen een aantal middelbare scholen in Rotterdam-Oost. Op haar beurt is Comenius weer onderdeel van CVO Rotterdam, de vereniging voor Christelijk Voortgezet Onderwijs. Onderdeel van het CVO is ook een shared-service-organisatie die veel van de administratieve taken van De Meerpaal op zich neemt.",
+        "url" : "Download de schoolgids"
     },
 
     "footer":   {

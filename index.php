@@ -1,13 +1,23 @@
 <?php 
-    // load footer.json
-    $footerJson = file_get_contents('json/footer.json');
-    $page = json_decode($footerJson);
-    $actualSection = $page->actual;
+    // load content.json
+    $contentJson = file_get_contents('json/content.json');
+    $pageContent = json_decode($contentJson);
+
+    // section1 /item1
+    $intro = $pageContent->intro;
+
+    // section2/ item2
+    $actualSection = $pageContent->actual;
     $events = $actualSection->events;
     $posts = $actualSection->posts;
-    $guide = $page->guide;
+    $guide = $pageContent->guide;
 
-    $footer = $page->footer;
+    //section3/ item3
+    $visionSection = $pageContent->vision;
+    $comeniusSection = $pageContent->comenius;
+
+    // footer
+    $footer = $pageContent->footer;
     $contact = $footer->contact;
     $sitemap = $footer->sitemap;
 
@@ -16,29 +26,6 @@
 
     // var_dump($footer->credits);
 
-    // Section 1/ item1
-    $welcome = "Welkom!";
-    $greet = "Leg aan in onze haven";
-    $intro = "Op VMBO De Meerpaal valt niemand buiten de boot, wat je verhaal ook is. Of je nou moeite hebt met stilzitten of je last hebt van dyslexie, bij ons is het normaal dat iedereen bijzonder is. Door de vertrouwensband van leerling tot leerkracht en van conciërge tot ouder creëren wij een veilige omgeving waarin iedereen kan opbloeien. Leg aan in onze haven!";
-
-    //section 2 / item2
-
-
-    //section 3 / item3
-    $vision = "Onderwijsvisie";
-    $safety = "Veilige leeromgeving";
-    $safetyDescription = "De Meerpaal biedt kinderen die in cognitief of sociaal-emotioneel 
-        opzicht ‘anders’ zijn, een veilige en uitdagende leeromgeving. Daarom gaat ons onderwijs 
-        net een stapje verder dan op andere scholen. Zo hechten wij aan overzichtelijkheid en 
-        aandacht voor persoonlijke ontwikkeling. Bovendien heeft iedere leerling eigen leerdoelen, 
-        om onderwijs op maat te creëren.";
-
-    $comenius = "Onderdeel van Comenius";
-    $comeniusDescription = "De Meerpaal is onderdeel van scholengroep Comenius College. Onder Comenius College 
-    vallen een aantal middelbare scholen in Rotterdam-Oost. Op haar beurt is Comenius 
-    weer onderdeel van CVO Rotterdam, de vereniging voor Christelijk Voortgezet Onderwijs. 
-    Onderdeel van het CVO is ook een shared-service-organisatie die veel van de 
-    administratieve taken van De Meerpaal op zich neemt.";
 
     // section 4
     $join = "Ook het anker uitgooien?";
@@ -143,10 +130,10 @@
 
             <!-- section content 1 -->
             <div class="item1 blue-waves">
-                <h1><?php echo $welcome; ?></h1>
-                <h2><?php echo $greet; ?></h2>
-                <p class="intro"><?php echo $intro; ?></p>
-                <a class="white-btn" href="#">Ik ben nieuw →</a>
+                <h1><?= $intro->greet ?></h1>
+                <h2><?= $intro->title ?></h2>
+                <p class="intro"><?= $intro->description ?></p>
+                <a class="white-btn" href="/<?= urlencode($intro->url) ?>"><?= $intro->url ?> →</a>
             </div>
 
             <!-- section content 2 -->
@@ -201,10 +188,10 @@
             <!-- section content 3 -->
             <div class="item3 blue-waves2">
                 <div class="">
-                    <h5><?php echo $vision;?></h5>
-                    <h6><?php echo $safety;?></h6>
-                    <p class="p-blue"><?php echo $safetyDescription; ?></p>
-                    <a class="white-btn" href="#">Voor ouders →</a>
+                    <h5><?= $visionSection->title ?></h5>
+                    <h6><?= $visionSection->safety ?></h6>
+                    <p class="p-blue"><?= $visionSection->description ?></p>
+                    <a class="white-btn" href="/<?= urlencode($visionSection->url) ?>"><?= $visionSection->url ?> →</a>
                 </div>
 
                 <!-- line goes through here??? -->
@@ -214,10 +201,10 @@
                 </div>
 
                 <div class="">
-                    <h6><?php echo $comenius;?></h6>
-                    <p class="p-blue"><?php echo $comeniusDescription;?></p>
+                    <h6><?= $comeniusSection->title ?></h6>
+                    <p class="p-blue"><?= $comeniusSection->description ?></p>
                     <div class="pink-btn">
-                        <a class="" href="#">Download de schoolgids</a>
+                        <a class="" href="/<?= urlencode($comeniusSection->url) ?>"><?= $comeniusSection->url ?></a>
                         <img class="extLinkIcon" src="resources/Icon_feather-external-link.svg"></iframe>
                     </div>
                 </div>
