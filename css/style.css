@@ -185,6 +185,10 @@ p{
     margin-bottom: 30px;
 }
 
+.item3 > div > .p-blue{
+    margin-bottom: 66px;
+}
+
 .item4 > h1{
     font-size: 53px;
     color: #E8348B;
@@ -201,7 +205,6 @@ p{
     color: #004069;
     font-size: 20px;
     width: 45vw;
-    /* margin-bottom: 75px; */
 }
 
 .intro{
