@@ -66,7 +66,13 @@
     "comenius" : {
         "title" : "Onderdeel van Comenius",
         "description" : "De Meerpaal is onderdeel van scholengroep Comenius College. Onder Comenius College vallen een aantal middelbare scholen in Rotterdam-Oost. Op haar beurt is Comenius weer onderdeel van CVO Rotterdam, de vereniging voor Christelijk Voortgezet Onderwijs. Onderdeel van het CVO is ook een shared-service-organisatie die veel van de administratieve taken van De Meerpaal op zich neemt.",
-        "url" : "Download de schoolgids"
+        "url" : "Website Comenius"
+    },
+
+    "join" : {
+        "title" : "Ook het anker uitgooien?",
+        "description" : "Heb je het advies vmbo-tl, -kb of -bb gekregen? En zoek je een school met extra begeleiding? De Meerpaal is dan misschien een goede school voor jou. Check de pagina Ik ben nieuw om te zien wat je van ons kan verwachten.",
+        "url" : "Ik ben nieuw"
     },
 
     "footer":   {

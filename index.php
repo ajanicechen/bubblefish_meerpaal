@@ -16,6 +16,9 @@
     $visionSection = $pageContent->vision;
     $comeniusSection = $pageContent->comenius;
 
+    //section4 /item4
+    $joinSection = $pageContent->join;
+
     // footer
     $footer = $pageContent->footer;
     $contact = $footer->contact;
@@ -25,7 +28,6 @@
     // exit();
 
     // var_dump($footer->credits);
-
 
     // section 4
     $join = "Ook het anker uitgooien?";
@@ -212,9 +214,9 @@
             
             <!-- section content 4 -->
             <div class="item4 yellow-waves">
-                <h1><?php echo $join;?></h1>
-                <p class="p-white"><?php echo $joinInfo;?></p>
-                <a class="blue-btn" href="#">Ik ben nieuw →</a>
+                <h1><?= $joinSection->title ?></h1>
+                <p class="p-white"><?= $joinSection->description ?></p>
+                <a class="blue-btn" href="/<?= urlencode($joinSection->url) ?>"><?= $joinSection->url ?> →</a>
             </div>
             
             <!-- footer -->
