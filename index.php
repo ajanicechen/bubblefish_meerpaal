@@ -5,6 +5,9 @@
 
     //menu
     $menu = $pageContent->menu;
+    $leftMenu = $menu->left;
+    $rightMenu = $menu->right;
+    $menuButtons = $menu->buttons;
 
     // section1 /item1
     $intro = $pageContent->intro;
@@ -30,7 +33,8 @@
     // var_dump($events[0]->date);
     // exit();
 
-    // var_dump($footer->credits);
+    // var_dump($menu->buttons);
+    // exit();
 
 ?>
 
@@ -81,58 +85,49 @@
                 <div class="row">
                     <div class="col-3">
                         <li>
-                            <a href="/<?= urlencode($menu->welcome) ?>">
-                                <?= $menu->welcome ?>
+                            <a href="/<?= urlencode($leftMenu->welcome) ?>">
+                                <?= $leftMenu->welcome ?>
                             </a>
                         </li>
                         <li>
-                            <a href="/<?= urlencode($menu->new->url) ?>">
-                                <?= $menu->new->url ?>
+                            <a href="/<?= urlencode($leftMenu->new->url) ?>">
+                                <?= $leftMenu->new->url ?>
                             </a>
-                            <p><?= $menu->new->description ?></p>
+                            <p><?= $leftMenu->new->description ?></p>
                         </li>
                         <li>
-                            <a href="/<?= urlencode($menu->mySchool->url) ?>">
-                                <?= $menu->mySchool->url ?>
+                            <a href="/<?= urlencode($leftMenu->mySchool->url) ?>">
+                                <?= $leftMenu->mySchool->url ?>
                             </a>
-                            <p><?= $menu->mySchool->description ?></p>
+                            <p><?= $leftMenu->mySchool->description ?></p>
                         </li>
                         <li>                            
-                            <a href="/<?= urlencode($menu->parents->url) ?>">
-                                <?= $menu->parents->url ?>
+                            <a href="/<?= urlencode($leftMenu->parents->url) ?>">
+                                <?= $leftMenu->parents->url ?>
                             </a>
-                            <p><?= $menu->parents->description ?></p>
+                            <p><?= $leftMenu->parents->description ?></p>
                         </li>
                         <li>
-                            <a href="/<?= urlencode($menu->signUp->url) ?>">
-                                <?= $menu->signUp->url ?>
+                            <a href="/<?= urlencode($leftMenu->signUp->url) ?>">
+                                <?= $leftMenu->signUp->url ?>
                             </a>
-                            <p><?= $menu->signUp->description ?></p>
+                            <p><?= $leftMenu->signUp->description ?></p>
                         </li>   
                     </div>
                     <div class="col-3">
-                        <li>
-                            <a href="">Agenda</a>
-                        </li>
-                        <li>
-                            <a href="">Nieuws</a>
-                        </li>
-                        <li>
-                            <a href="">Vacatures</a>
-                        </li>
-                        <li>                            
-                            <a href="">Contact</a>
-                        </li>
+                        <?php foreach ($rightMenu as $menu): ?>
+                            <li>
+                                <a href="/<?= urlencode($menu) ?>"><?= $menu ?></a>
+                            </li>
+                        <?php endforeach; ?>
                     </div>
                     <div class="fixed-bottom menu-ext-btn-wrap">
-                        <a href="#" class="menu-ext-btn">
-                            Portaal
-                            <i class="fa-solid fa-up-right-from-square"></i>
-                        </a>
-                        <a href="#" class="menu-ext-btn">
-                            Comenius
-                            <i class="fa-solid fa-up-right-from-square"></i>
-                        </a>
+                        <?php foreach ($menuButtons as $button): ?>
+                            <a href="#" class="menu-ext-btn">
+                                <?= $button ?>
+                                <i class="fa-solid fa-up-right-from-square"></i>
+                            </a>
+                        <?php endforeach; ?>
                     </div>
                 </div>         
             </ul>

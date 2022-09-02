@@ -1,21 +1,33 @@
 {   
     "menu" : {
-        "welcome" : "Welkom!",
-        "new" : { 
-            "url" : "Ik ben nieuw",
-            "description" : "Hoe gaat het er aan toe op De Meerpaal?"
-         },
-        "mySchool" : {
-            "url" : "Mijn school",
-            "description" : "Informatie over ziekte en verlof en de leerlingenraad"
+        "left" : {
+            "welcome" : "Welkom!",
+            "new" : { 
+                "url" : "Ik ben nieuw",
+                "description" : "Hoe gaat het er aan toe op De Meerpaal?"
+            },
+            "mySchool" : {
+                "url" : "Mijn school",
+                "description" : "Informatie over ziekte en verlof en de leerlingenraad"
+            },
+            "parents" : {
+                "url" : "Voor ouders",
+                "description" : "Informatie over protocollen, ouderbijdrage en verzekeringen."
+            },
+            "signUp" : {
+                "url" : "Aanmelden",
+                "description" : "Alles over kennismaken, de toelatingseisen en de aanmeldprocedure"
+            }
         },
-        "parents" : {
-            "url" : "Voor ouders",
-            "description" : "Informatie over protocollen, ouderbijdrage en verzekeringen."
+        "right" : {
+            "agenda" : "Agenda",
+            "nieuws" : "Nieuws",
+            "vacatures" : "Vacatures",
+            "contact" : "Contact"
         },
-        "signUp" : {
-            "url" : "Aanmelden",
-            "description" : "Alles over kennismaken, de toelatingseisen en de aanmeldprocedure"
+        "buttons" : {
+            "portal" : "Portaal",
+            "comenius" : "Comenius"
         }
     },
 
