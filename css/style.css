@@ -382,9 +382,11 @@ li{
 }
 
 .menu-ext-btn{
+    font-size: 30px;
     color: #FFFDEF;
     text-decoration: none;
     padding: 10px 28px;
+    margin: 0px 18.5px;
     border: 2px solid #FFFDEF;
     border-radius: 50px;
 }
@@ -393,10 +395,10 @@ li{
     color: #004069;
 }
 
-/* .menu-ext-btn-wrap{
-    left: 180px;
-    bottom: 90px;
-} */
+.menu-ext-btn-wrap{
+    left: 254.5px;
+    bottom: 81px;
+}
 
 .blue-waves, .blue-waves2, .round-waves, .yellow-waves{
     overflow:hidden;
@@ -644,6 +646,8 @@ li{
 
     .menu-ext-btn{
         margin: 0px 10px;
+        padding: 10px 28px;
+        border: 2px solid #FFFDEF;
     }
     .menu-ext-btn-wrap{
         left: 180px;
