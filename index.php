@@ -3,6 +3,9 @@
     $contentJson = file_get_contents('json/content.json');
     $pageContent = json_decode($contentJson);
 
+    //menu
+    $menu = $pageContent->menu;
+
     // section1 /item1
     $intro = $pageContent->intro;
 
@@ -28,12 +31,6 @@
     // exit();
 
     // var_dump($footer->credits);
-
-    // section 4
-    $join = "Ook het anker uitgooien?";
-    $joinInfo = "Heb je het advies vmbo-tl, -kb of -bb gekregen? En zoek je een school met extra begeleiding? 
-    De Meerpaal is dan misschien een goede school voor jou. Check de pagina Ik ben nieuw om 
-    te zien wat je van ons kan verwachten.";
 
 ?>
 
@@ -84,23 +81,33 @@
                 <div class="row">
                     <div class="col-3">
                         <li>
-                            <a href="">Welkom!</a>
+                            <a href="/<?= urlencode($menu->welcome) ?>">
+                                <?= $menu->welcome ?>
+                            </a>
                         </li>
                         <li>
-                            <a href="">Ik ben nieuw</a>
-                            <p>Hoe gaat het er aan toe op De Meerpaal?</p>
+                            <a href="/<?= urlencode($menu->new->url) ?>">
+                                <?= $menu->new->url ?>
+                            </a>
+                            <p><?= $menu->new->description ?></p>
                         </li>
                         <li>
-                            <a href="">Mijn school</a>
-                            <p>Informatie over ziekte en verlof en de leerlingenraad</p>
+                            <a href="/<?= urlencode($menu->mySchool->url) ?>">
+                                <?= $menu->mySchool->url ?>
+                            </a>
+                            <p><?= $menu->mySchool->description ?></p>
                         </li>
                         <li>                            
-                            <a href="">Voor ouders</a>
-                            <p>Informatie over protocollen, ouderbijdrage en verzekeringen.</p>
+                            <a href="/<?= urlencode($menu->parents->url) ?>">
+                                <?= $menu->parents->url ?>
+                            </a>
+                            <p><?= $menu->parents->description ?></p>
                         </li>
                         <li>
-                            <a href="">Aanmelden</a>
-                            <p>Alles over kennismaken, de toelatingseisen en de aanmeldprocedure</p>
+                            <a href="/<?= urlencode($menu->signUp->url) ?>">
+                                <?= $menu->signUp->url ?>
+                            </a>
+                            <p><?= $menu->signUp->description ?></p>
                         </li>   
                     </div>
                     <div class="col-3">

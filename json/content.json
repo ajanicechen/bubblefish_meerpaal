@@ -1,4 +1,24 @@
 {   
+    "menu" : {
+        "welcome" : "Welkom!",
+        "new" : { 
+            "url" : "Ik ben nieuw",
+            "description" : "Hoe gaat het er aan toe op De Meerpaal?"
+         },
+        "mySchool" : {
+            "url" : "Mijn school",
+            "description" : "Informatie over ziekte en verlof en de leerlingenraad"
+        },
+        "parents" : {
+            "url" : "Voor ouders",
+            "description" : "Informatie over protocollen, ouderbijdrage en verzekeringen."
+        },
+        "signUp" : {
+            "url" : "Aanmelden",
+            "description" : "Alles over kennismaken, de toelatingseisen en de aanmeldprocedure"
+        }
+    },
+
     "intro" : {
         "greet" : "Welkom!",
         "title" : "Leg aan in onze haven",
@@ -92,17 +112,17 @@
         "sitemap": {
             "title": "Sitemap",
             "links": {
-                "Welkom" : "Welkom",
-                "Ik ben nieuw" : "Ik ben nieuw",
-                "Mijn school" : "Mijn school",
-                "Voor ouders" : "Voor ouders",
-                "Organisatie" : "Organisatie",
-                "Nieuws" : "Nieuws",
-                "Agenda" : "Agenda",
-                "Vacatures" : "Vacatures",
-                "Contact" : "Contact",
-                "Portaal↗" : "Portaal↗",
-                "Comenius↗" : "Comenius↗"
+                "welkom" : "Welkom",
+                "ik ben nieuw" : "Ik ben nieuw",
+                "mijn school" : "Mijn school",
+                "voor ouders" : "Voor ouders",
+                "organisatie" : "Organisatie",
+                "nieuws" : "Nieuws",
+                "agenda" : "Agenda",
+                "vacatures" : "Vacatures",
+                "contact" : "Contact",
+                "portaal↗" : "Portaal↗",
+                "comenius↗" : "Comenius↗"
             }
         }
     }
